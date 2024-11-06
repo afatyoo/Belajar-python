@@ -2,7 +2,7 @@
 
 print("\nPROGRAM KONVERSI TEMPERATUR UNTUK Celcius\n")
 
-celcius = float (input('Masukan suhu dalam celcius : '))
+celcius = float(input('Masukan suhu dalam celcius : '))
 print("suhu adalah", celcius, "Celcius")
 
 # reamur
@@ -12,3 +12,8 @@ print("suhu dalam reamur adalah ", reamur, "Reamur")
 # fahrenheit
 fahrenheit = ((9/5) * celcius) + 32
 print("suhu dalam fahrenheit adalah ", fahrenheit, "Fahrenheit")
+
+#kelvin
+
+kelvin = celcius + 273
+print("Suhu dalam kelvin", kelvin, "Kelvin" )
