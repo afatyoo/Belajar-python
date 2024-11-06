@@ -4,11 +4,12 @@ from reamur import reamur_program
 from farenheit import farenheit_program
 
 def main():
-    print("\n pilih jenis konversi suhu" )
-    print("1. celcius")
-    print("2. farenheit")
-    print("3. kelvin")
-    print("4. reamur")
+    print("")
+print("\npilih jenis konversi suhu:\n")
+print("1. celcius", flush=(True))
+print("2. farenheit", flush=(True))
+print("3. kelvin", flush=(True))
+print("4. reamur", flush=(True))
 
 choice = input("masukan pilhan (1-4) :")
 
