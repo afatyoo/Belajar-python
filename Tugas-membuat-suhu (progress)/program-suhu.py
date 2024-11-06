@@ -5,7 +5,7 @@ from farenheit import farenheit_program
 
 def main():
     print("")
-print("\npilih jenis konversi suhu:\n")
+print("\npilih jenis konversi suhu:")
 print("1. celcius", flush=(True))
 print("2. farenheit", flush=(True))
 print("3. kelvin", flush=(True))
